@@ -21,7 +21,7 @@ It is structured into several key code cells, each with a distinct purpose.
 
 - Implements a **function to acquire country cluster data**, dividing countries into **bottom-40**, **middle-40**, and **top-20** groups.  
 
-- Builds a **Trellis Plot**, based on the `domain` parameter (ecological or social), computing ecological overshoot for each group for the only available year (2017) using the formula:  
+- Builds a **Trellis Plot**, based on the `domain` parameter (ecological or social), computing ecological overshoot for each group for the only available year (2017 - which is found programmatically) using the formula:  
 
 $$
 O = \frac{Y_t - Y_g}{Y_g}
